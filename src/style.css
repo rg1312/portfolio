@@ -58,6 +58,7 @@ body {
   max-width: 800px;
   /* margin: 0 auto; */
   padding: 20px;
+
 }
 
 .tabs {
@@ -129,10 +130,10 @@ body {
 /* footer section */
 
 .text-style1 {
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: left;
   font-family: "Satoshi", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   padding-left: 15px;
   letter-spacing: -1px;
 }
@@ -148,7 +149,8 @@ body {
 }
 
 .links {
-  margin-top: 2%;
+  /* margin-bottom: 12%; */
+margin-top: 5%;
   display: flex;
   -ms-flex-direction: column;
   font-family: "Satoshi", sans-serif;
@@ -158,6 +160,7 @@ body {
   gap: 8%;
   padding-left: 15px;
   cursor: pointer;
+  
 }
 
 .flip-text {
@@ -185,6 +188,7 @@ body {
   }
 }
 
+
 /* About */
 
 .a-container {
@@ -208,7 +212,10 @@ body {
 .a-visible {
   margin: 1% 25% 1% 25%;
   /* text-align: center; */
-  align-items: center;
+  text-align: justify;
+  /* align-items: center; */
+
+
 }
 
 .about-style2 {

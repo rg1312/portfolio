@@ -8,8 +8,10 @@ function Footer() {
         style={{
           display: "flex",
           flexDirection: "column",
-          justifyContent: "center",
+          // justifyContent: "center",
+          justifyContent:"center",
           minHeight: "96vh",
+          // height:'100vh',
         }}
       >
         <span className="text-style1">Have a project in mind?</span>
@@ -17,7 +19,7 @@ function Footer() {
           <span className="text-style2">✺ Let's Chat</span>
         </div>
         <a
-          href="mailto:hellodev@gmail.com"
+          href="mailto:hellodev281@gmail.com"
           className="text-style3"
           style={{
             color: "black",
@@ -33,8 +35,10 @@ function Footer() {
           hellodev281@gmail.com
         </a>
 
-        <hr style={{ marginTop: "5%" }}></hr>
-        <div className="links">
+        <hr style={{ marginTop: "5%" ,width:'90%', margin:'5%'}}></hr>
+
+
+        <div className="links" >
           <div class="flip-text ">
             <a href="mailto:hellodev281@gmail.com" style={{ color: "black" }}>
               <span data-text="Mail">Mail</span>
@@ -55,7 +59,10 @@ function Footer() {
             </a>
           </div>
         </div>
+        
       </div>
+      
+      
     </>
   );
 }
