@@ -19,7 +19,7 @@ function Footer() {
           <span className="text-style2">✺ Let's Chat</span>
         </div>
         <a
-          href="mailto:hellodev281@gmail.com"
+          href="mailto:rahilgajjar910@gmail.com"
           className="text-style3"
           style={{
             color: "black",
@@ -32,7 +32,7 @@ function Footer() {
           }}
         >
           {" "}
-          hellodev281@gmail.com
+          rahilgajjar910@gmail.com
         </a>
 
         <hr style={{ marginTop: "5%" ,width:'90%', margin:'5%'}}></hr>
@@ -40,24 +40,19 @@ function Footer() {
 
         <div className="links" >
           <div class="flip-text ">
-            <a href="mailto:hellodev281@gmail.com" style={{ color: "black" }}>
+            <a href="mailto:rahilgajjar910@gmail.com" style={{ color: "black" }}>
               <span data-text="Mail">Mail</span>
             </a>
           </div>
           <div class="flip-text">
             <a
-              href="https://www.linkedin.com/in/dev-gajjar-318493309/"
+              href="https://www.linkedin.com/in/rahil-gajjar-65787221a/"
               style={{ color: "black" }}
             >
               <span data-text="Linkedin">Linkedin</span>
             </a>
           </div>
-          <div class="flip-text">
-            <a href="https://github.com/DevGajjar28" style={{ color: "black" }}>
-              {" "}
-              <span data-text="GitHub">GitHub</span>
-            </a>
-          </div>
+          
         </div>
         
       </div>

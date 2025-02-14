@@ -9,20 +9,17 @@ function About() {
         </span>
         <div className="a-visible">
           <span className="about-style2">
-            I'm Dev, fresh out of graduation and ready to dive headfirst into
-            the world of frontend development. While I'm gearing up for my
-            master's journey, my true passion lies in crafting real-time,
-            engaging web experiences.
+            I'm Rahil, As a Cloud Support Engineer with several years of experience in the industry, my objective is to utilize my skills and knowledge
+            to provide efficient and effective solutions for clients. With a dedication to customer satisfaction and a strong background in
+            cloud computing.
             <br />
             <p style={{ marginTop: "5%" }}>
-              I'm all about turning concepts into captivating digital realities.
-              With a knack for adaptability and effective communication, I'm
-              ready to work with any technology stack. Let's connect and build
-              something awesome together! Whether it's a coding challenge or
-              just a friendly chat, I'm game! 🚀
+            My strong communication skills enable me to collaborate effectively with cross-functional teams and provide exceptional customer support. 
+            I stay updated on the latest cloud technologies and best practices to deliver innovative solutions. 
+            Problem-solving is at the core of my work, and I thrive in fast-paced environments. 🚀
             </p>
           </span>
-          <a href="mailto:hellodev@gmail.com" className="about-style3">
+          <a href="mailto:rahilgajjar910@gmail.com" className="about-style3">
             Let's Connect &nbsp;&rarr;
           </a>
         </div>

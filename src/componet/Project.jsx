@@ -1,7 +1,7 @@
 import React from "react";
 import "./project.css"; // Assuming you have a CSS file named 'Project.css'
-import weatherapp from "../assets/weathera.png";
-import vortexapp from "../assets/vortex.png";
+import cacm from "../assets/CACM.png";
+import xenserver from "../assets/Xen Server.png";
 
 function Project() {
   return (
@@ -13,7 +13,7 @@ function Project() {
           fontFamily: "Apoc Revelations Regular ,serif",
           letterSpacing: "1px",
           fontSize: "2rem",
-          marginTop: "2%",
+          marginTop: "4%",
           paddingLeft: "15px",
         }}
       >
@@ -23,22 +23,21 @@ function Project() {
         <div className="project-item">
           <div className="project-content">
             <div className="project-overlay"></div>
-            <img className="project-image" src={weatherapp} alt="" />
+            <img className="project-image" src={cacm} alt="" />
             <div className="project-details fadeInBottom">
-              <h3 className="project-details-title">Weather App</h3>
+              <h3 className="project-details-title">Cloud Automation</h3>
               <p className="project-details-text">
-                A simple React-powered weather app, designed to provide
-                real-time updates using an API
+                Automated Cloud infrastructure and application deployments using GitLab, Jenkins and Chef tool.
                 <br />
                 <a
-                  href="https://github.com/DevGajjar28/weather-app"
+                  href="https://drive.google.com/drive/folders/1w2BY-9avjp-ugHfJPzlzHAxXqTwm4lCG"
                   style={{
-                    background: "black",
+                    //background: "black",
                     color: "white",
                     fontSize: "1.2rem",
                   }}
                 >
-                  GitHub
+                  Project Link
                 </a>
               </p>
             </div>
@@ -49,23 +48,21 @@ function Project() {
           <div className="project-content">
             {/* <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank"> */}
             <div className="project-overlay"></div>
-            <img className="project-image" src={vortexapp} alt="" />
+            <img className="project-image" src={xenserver} alt="" />
             <div className="project-details fadeInTop">
-              <h3>Vortex </h3>
+              <h3>Xen Server</h3>
               <p>
-                Created a dynamic content aggregator akin to Unsplash,
-                leveraging React.js for frontend and Django with Django Rest
-                Framework for backend
+                Virtualized the Infrastrucutre using Xen Center and Xen servers
               </p>
               <a
-                href="https://github.com/DevGajjar28/Vortex_app"
+                href="https://drive.google.com/drive/folders/1toqefO9Q3ZTUU6u-3z6rae5MVh8neHsb"
                 style={{
-                  background: "black",
+                  //background: "black",
                   color: "white",
                   fontSize: "1.2rem",
                 }}
               >
-                GitHub
+                Project Link
               </a>
             </div>
             {/* </a> */}
